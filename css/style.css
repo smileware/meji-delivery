@@ -33,6 +33,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   min-height: 100vh;
+  color: white;
 }
 
 body {
@@ -189,6 +190,69 @@ a:hover {
 }
 .banner .banner-line img {
   width: 100%;
+}
+
+.section-2 {
+  background-image: url("../img/bg-red.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  width: 100%;
+  position: relative;
+}
+.section-2 .route {
+  position: absolute;
+  right: 0;
+  width: 70%;
+  height: 616px;
+  object-fit: contain;
+}
+.section-2 .container-inner {
+  display: flex;
+}
+.section-2 .container-inner .second-left, .section-2 .container-inner .section-right {
+  min-width: 50%;
+  max-width: 50%;
+}
+.section-2 h2 {
+  color: white;
+  font-size: 60px;
+  line-height: 65px;
+  text-shadow: 4px 4px 0 rgba(102, 0, 3, 0.55);
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+.section-2 .second-left {
+  padding: 30px 20px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-2 .second-left img {
+  width: 70px;
+  margin-left: -50px;
+  margin-bottom: 30px;
+}
+.section-2 .second-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 450px;
+}
+.section-2 .second-right img.pins {
+  position: absolute;
+  z-index: 0;
+  width: 500px;
+}
+.section-2 .second-right img.scooter {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+}
+.section-2 .note {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
