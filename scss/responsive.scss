@@ -33,6 +33,17 @@
         }
     }
 
+    .section-3 { 
+        .title { 
+            &::before { 
+                left: 15%;
+            }
+        }
+    }
+    
+    .btn-cta-3 {
+        bottom: 200px;
+    }
 }
 /*
     #    # #####  
@@ -42,8 +53,19 @@
     #    # #    # 
     #    # #####  
 */
+.btn-cta-4.-mobile { 
+    display: none;
+}
+.btn-cta-4.-desktop { 
+    display: flex;
+}
 @media only screen and (max-width: 796px) {
-    
+    .btn-cta-4.-mobile { 
+        display: flex;
+    }
+    .btn-cta-4.-desktop { 
+        display: none;
+    }
     .section-1 { 
         position: relative;
         padding-bottom:  500px;
@@ -146,6 +168,103 @@
             font-size: 40px;
         }
     }
+
+    .section-3 { 
+        padding-bottom: 90px;
+        .line-top { 
+            width: 140px;
+            left: 60px;
+        }
+        .title { 
+            justify-content: center;
+            h1 { 
+                line-height: 85px;
+            }
+            &::before { 
+                left: 90%;
+            }
+        }
+        .container-top { 
+            img.milks { 
+                margin-top: 130px;
+            }
+            .content { 
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .container-bottom { 
+            margin-top: -100px;
+        }
+
+        .line-bottom { 
+            width: 180px;
+            position: absolute;
+            left:60%;
+            top: -30px;
+        }
+        .content {
+            align-items: flex-start;
+            .left { 
+                padding-top: 50px;
+                padding-left: 16px;
+                width: 100%;
+            }
+           
+            img.people { 
+                position: absolute;
+                width: 350px;
+                right: 0px;
+                top: 100px;
+            }
+        }
+    }
+
+    .btn-cta-3 {
+        position: relative;
+        left: 0;
+        bottom: 100px;
+        width: 400px;
+        max-width: 100%;
+        height: 90px;
+    }
+    .btn-cta-4 {
+        width: 400px;
+        max-width: 100%;
+        height: 90px;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .section-3 { 
+        .content {
+            position: relative;
+            .right { 
+                position: absolute;
+                width: 302px;
+                right: 0;
+                top: 200px;
+            }
+            img.people { 
+                position: relative;
+                width: 100%;
+                right: auto;
+                top: auto;
+            }
+        }
+        .coffee { 
+            width: 300px;
+            position: absolute;
+            right: 0;
+            bottom: 90px;
+        }
+    }
 }
 /*
      #####    ###     ###                 
@@ -187,6 +306,47 @@
             padding: 30px;
             font-size: 30px;
         }
+    }
+    .section-3 { 
+        .title { 
+            h1 { 
+                font-size: 55px;
+                line-height: 70px;
+            }
+            &::before { 
+                left: 90%;
+            }
+        }
+        .meji-text { 
+            font-size: 70px;
+        }
+        .container-top { 
+            img.milks { 
+                margin-top: 130px;
+            }
+        }
+        .container-bottom { 
+            margin-top: 0px;
+        }
+        .content {
+            .left { 
+                h1 { 
+                    font-size: 50px;
+                    line-height: 55px;
+                }
+            }
+        }
+    }
+    .btn-cta-3 {
+        bottom: 30px;
+        width: 250px;
+        max-width: 100%;
+        height: 70px;
+    }
+    .btn-cta-4 {
+        width: 250px;
+        max-width: 100%;
+        height: 70px;
     }
 }
 /*
@@ -265,6 +425,28 @@
             margin-top: -10px;
         }
     }
+    .section-3 { 
+        .title { 
+            h1 { 
+                font-size: 50px;
+                line-height: 55px;
+            }
+        }
+        .meji-text { 
+            font-size: 50px;
+            span {
+                -webkit-text-stroke: 7px white;
+            }
+        }
+        .container-top { 
+            img.milks { 
+                margin-top: 150px;
+            }
+        }
+    }
+    .btn-cta-3 {
+        bottom: 30px;
+    }
 }
 /*
     #       #######   ###                 
@@ -280,6 +462,65 @@
         min-height: auto;
         margin-top: 350px;
         padding-bottom: 10px;
+    }
+    .section-3 { 
+        .line-bottom { 
+            width: 100px;
+            left: 40%;
+        }
+        .title { 
+            &::before { 
+                left: 90%;
+                width: 30px;
+                top: -30px;
+            }
+        }
+        .content {
+            .left { 
+                padding-left: 0px;
+                h1 { 
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .section-3 { 
+        .title { 
+            h1 { 
+                font-size: 40px;
+                line-height: 45px;
+            }
+        }
+        .meji-text { 
+            font-size: 40px;
+        }
+        .container-top { 
+            img.milks { 
+                margin-top: 60px;
+                width: 90%;
+            }
+        }
+        .container-bottom { 
+            min-height: auto;
+            margin-top: -220px;
+        }
+        .coffee { 
+            width: 200px;
+            bottom: 180px;
+        }
+        .content {
+            .right { 
+                width: 60%;
+            }
+            img.people { 
+                width: 100%;
+                z-index: 1;
+            }
+        }
     }
 }
 

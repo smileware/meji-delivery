@@ -255,4 +255,155 @@ a:hover {
   font-size: 30px;
 }
 
+.section-3 {
+  background-image: url("../img/bg-grass.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.section-3 .line-top {
+  width: 230px;
+  position: absolute;
+  left: 20%;
+  top: -30px;
+}
+.section-3 .flash {
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-3 .title {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.section-3 .title h1 {
+  font-size: 80px;
+  text-align: left;
+  text-shadow: 4px 3px 0 rgba(69, 133, 168, 0.68);
+}
+.section-3 .title::before {
+  content: url("../img/flash.svg");
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  left: 30%;
+}
+.section-3 .container-top {
+  min-height: 600px;
+  padding-top: 60px;
+  text-align: right;
+}
+.section-3 .container-top .content {
+  position: relative;
+}
+.section-3 .container-top img.milks {
+  margin-top: -10px;
+  width: 90%;
+}
+.section-3 .container-bottom {
+  min-height: 598px;
+  margin-top: -200px;
+  position: relative;
+  display: flex;
+}
+.section-3 .line-bottom {
+  width: 230px;
+  position: absolute;
+  left: 40%;
+  top: -30px;
+}
+.section-3 .meji-text {
+  display: inline-block;
+  font-size: 110px;
+  font-weight: 600;
+  position: relative;
+}
+.section-3 .meji-text span {
+  -webkit-text-stroke: 12px white;
+}
+.section-3 .meji-text .shadow {
+  color: var(--s-accent);
+  -webkit-text-stroke: 0px;
+  position: absolute;
+  left: 0;
+  text-shadow: none;
+}
+.section-3 .content {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.section-3 .content .left, .section-3 .content .right {
+  width: 50%;
+}
+.section-3 .content .left {
+  padding-left: 60px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.section-3 .content .left h1 {
+  font-size: 80px;
+  font-weight: 600;
+  text-shadow: 4px 4px 0 rgba(53, 79, 24, 0.55);
+  line-height: 69.27px;
+  margin-bottom: 40px;
+  z-index: 1;
+  position: relative;
+}
+.section-3 .content .right {
+  display: flex;
+  align-items: flex-end;
+}
+.section-3 .content img.people {
+  width: 100%;
+  z-index: 1;
+}
+.section-3 .coffee {
+  width: 350px;
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+}
+.section-3 .emoji-d {
+  width: 110px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.btn-cta-3 {
+  position: absolute;
+  bottom: 250px;
+  left: 60px;
+  height: 62px;
+  width: 300px;
+  border-radius: 23px;
+  background-color: var(--s-accent);
+  box-shadow: 4px 5px 4px 1px rgba(23, 38, 12, 0.53);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-cta-3 img {
+  width: 70%;
+}
+
+.btn-cta-4 {
+  height: 62px;
+  width: 300px;
+  border-radius: 23px;
+  background-color: var(--s-accent);
+  box-shadow: 4px 5px 4px 1px rgba(23, 38, 12, 0.53);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-cta-4 img {
+  width: 70%;
+}
+
 /*# sourceMappingURL=style.css.map */
