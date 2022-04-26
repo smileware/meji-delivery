@@ -1,0 +1,187 @@
+
+/*
+ * Font Name: DB HelvethaicaMon X 
+ */
+@font-face {
+  font-family: "DB HelvethaicaMon X";
+  src: url("../fonts/DB HelvethaicaMon X.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DB HelvethaicaMon X";
+  src: url("../fonts/DB HelvethaicaMon X Bd.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DB HelvethaicaMon X";
+  src: url("../fonts/DB HelvethaicaMon X Blk.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root { 
+    --s-accent: #d71817;
+    --c-transition-hover: .4s ease all;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    min-height: 100vh;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: "DB HelvethaicaMon X";
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6 { 
+    margin: 0;
+}
+a{ 
+    text-decoration: none;
+    transition: var(--c-transition-hover) !important;
+    &:hover { 
+        transform: scale(1.1) !important;
+    }
+}
+
+.container { 
+    padding: 0 25px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.section-1 {
+    background-image: url('../img/bg-crop.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 686px;
+    width: 100%;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    .header-cta { 
+        display: flex;
+        align-items: center;
+        a{ 
+            font-family: "DB HelvethaicaMon X";
+            font-size: 40px;
+            font-weight: 600;
+            color: var(--s-accent);
+            min-width: 300px;
+            height: 53px;
+            border-radius: 20px;
+            background-color: white;
+            border: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 4px 4px 0 rgba(23, 110, 159, 0.55);
+            div {
+                padding-top: 18px;
+            }
+            img {
+                width: 37px;
+                margin-left: 15px;
+            }
+        }
+    }
+} 
+
+.site-brand { 
+    background-color: white;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    padding: 10px 25px;
+    img { 
+        max-width: 90px;
+    }
+}
+
+.btn-cta-1 { 
+    height: 62px;
+    width: 300px;
+    border-radius: 23px;
+    background-color: var(--s-accent);
+    box-shadow: 4px 4px 0 rgba(47, 110, 144, 0.68), 4px 5px 4px 1px rgba(23, 38, 12, 0.53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img { 
+        width: 70%;
+    }
+}
+
+.banner { 
+    display: flex;
+    align-items: flex-end;
+    height: 560px;
+    .banner-info { 
+        min-width: 58%;
+        padding-left: 60px;
+        padding-bottom: 50px;
+        .h1-wrap { 
+            position: relative;
+            h1 { 
+                color: var(--s-accent);
+                font-size: 80px;
+                line-height: 75px;
+                text-shadow: 10px 9px 6px rgba(17, 101, 141, 0.28);
+                -webkit-text-stroke: 12px white; /* width and color */
+                font-weight: 600;
+                margin: 0 0 15px;
+            }
+            h1.shadow { 
+                position: absolute;
+                -webkit-text-stroke: 0px; /* width and color */
+                text-shadow: none;
+                top: 0;
+                margin: 0;
+            }
+        }
+        h3 {
+            font-size: 50px;
+            font-weight: 600;
+            line-height: .8;
+            margin-top: 40px;
+            color: #000;
+            text-shadow: 2px 2px 0 rgba(60, 138, 189, 0.55);
+        }
+    }
+    .banner-img{ 
+        display: flex;
+        align-items: flex-end;
+        img { 
+            width: 100%;
+            max-width: 100%;
+        }
+        &.-mobile { 
+            padding-left: 60px;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .banner-line { 
+        max-width: 350px;
+        margin-left: -18px;
+        margin-bottom: 15px;
+        display: block;
+        img {
+            width: 100%;
+        }
+       
+    }
+}
