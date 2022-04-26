@@ -1,3 +1,11 @@
+/*
+    #       ####  
+    #      #    # 
+    #      #      
+    #      #  ### 
+    #      #    # 
+    ######  ####  
+*/
 @media only screen and (max-width: 1024px) {
   .banner .banner-info {
     min-width: 46%;
@@ -16,6 +24,14 @@
     min-width: auto;
   }
 }
+/*
+    #    # #####  
+    ##  ## #    # 
+    # ## # #    # 
+    #    # #    # 
+    #    # #    # 
+    #    # #####  
+*/
 @media only screen and (max-width: 796px) {
   .section-1 {
     position: relative;
@@ -123,6 +139,15 @@
     font-size: 40px;
   }
 }
+/*
+     #####    ###     ###                 
+    #     #  #   #   #   #  #####  #    # 
+    #       #     # #     # #    #  #  #  
+    ######  #     # #     # #    #   ##   
+    #     # #     # #     # #####    ##   
+    #     #  #   #   #   #  #       #  #  
+     #####    ###     ###   #      #    # 
+*/
 @media only screen and (max-width: 600px) {
   .section-1 {
     padding-bottom: 200px;
@@ -150,6 +175,15 @@
     font-size: 30px;
   }
 }
+/*
+    #######   ###   #######               
+    #        #   #  #       #####  #    # 
+    #       #     # #       #    #  #  #  
+    ######  #     # ######  #    #   ##   
+          # #     #       # #####    ##   
+    #     #  #   #  #     # #       #  #  
+     #####    ###    #####  #      #    # 
+*/
 @media only screen and (max-width: 505px) {
   .section-1 {
     padding-bottom: 0;
@@ -211,6 +245,15 @@
     margin-top: -10px;
   }
 }
+/*
+    #       #######   ###                 
+    #    #  #        #   #  #####  #    # 
+    #    #  #       #     # #    #  #  #  
+    #    #  ######  #     # #    #   ##   
+    #######       # #     # #####    ##   
+         #  #     #  #   #  #       #  #  
+         #   #####    ###   #      #    # 
+*/
 @media only screen and (max-width: 450px) {
   .section-2 {
     min-height: auto;
